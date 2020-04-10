@@ -1,0 +1,12 @@
+/Users/furkanaydin/Documents/workspace-sts-3.9.11.RELEASE/petclinic/src/main/java/com/javaegitimleri/petclinic/dao/OwnerRepository.java
+/Users/furkanaydin/Documents/workspace-sts-3.9.11.RELEASE/petclinic/src/main/java/com/javaegitimleri/petclinic/dao/PetRepository.java
+/Users/furkanaydin/Documents/workspace-sts-3.9.11.RELEASE/petclinic/src/main/java/com/javaegitimleri/petclinic/model/Owner.java
+/Users/furkanaydin/Documents/workspace-sts-3.9.11.RELEASE/petclinic/src/main/java/com/javaegitimleri/petclinic/PetClinicConfiguration.java
+/Users/furkanaydin/Documents/workspace-sts-3.9.11.RELEASE/petclinic/src/main/java/com/javaegitimleri/petclinic/exception/OwnerNotFoundException.java
+/Users/furkanaydin/Documents/workspace-sts-3.9.11.RELEASE/petclinic/src/main/java/com/javaegitimleri/petclinic/service/PetClinicService.java
+/Users/furkanaydin/Documents/workspace-sts-3.9.11.RELEASE/petclinic/src/main/java/com/javaegitimleri/petclinic/dao/mem/OwnerRepositoryInMemoryImpl.java
+/Users/furkanaydin/Documents/workspace-sts-3.9.11.RELEASE/petclinic/src/main/java/com/javaegitimleri/petclinic/PetClinicProperties.java
+/Users/furkanaydin/Documents/workspace-sts-3.9.11.RELEASE/petclinic/src/main/java/com/javaegitimleri/petclinic/web/PetClinicController.java
+/Users/furkanaydin/Documents/workspace-sts-3.9.11.RELEASE/petclinic/src/main/java/com/javaegitimleri/petclinic/service/PetClinicServiceImpl.java
+/Users/furkanaydin/Documents/workspace-sts-3.9.11.RELEASE/petclinic/src/main/java/com/javaegitimleri/petclinic/model/Pet.java
+/Users/furkanaydin/Documents/workspace-sts-3.9.11.RELEASE/petclinic/src/main/java/com/javaegitimleri/petclinic/PetClinicApplication.java
