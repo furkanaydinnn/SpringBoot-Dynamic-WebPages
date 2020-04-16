@@ -10,8 +10,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.javaegitimleri.petclinic.model.Owner;
-import com.javaegitimleri.petclinic.service.PetClinicService;
+import com.springBootEdu.petclinic.model.Owner;
+import com.springBootEdu.petclinic.service.PetClinicService;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(properties= {"spring.profiles.active=dev"})
