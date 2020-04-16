@@ -1,28 +1,24 @@
-package com.javaegitimleri.petclinic;
+package com.springBootEdu.petclinic.security;
 
-import java.util.List;
-
-import org.hamcrest.MatcherAssert;
-import org.hamcrest.Matchers;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.security.authentication.AuthenticationCredentialsNotFoundException;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.springBootEdu.petclinic.model.Owner;
 import com.springBootEdu.petclinic.service.PetClinicService;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(properties= {"spring.profiles.active=dev"})
-public class PetClinicIntegrationTests {
+@SpringBootTest(properties="spring.profiles.active=dev")
+public class PetClinicSecurityWithoutAuthTokenTests {
+	
 	@Autowired
 	private PetClinicService petClinicService;
 	
-	@Test
+	@Test(expected=AuthenticationCredentialsNotFoundException.class)
 	public void testFindOwners() {
-		List<Owner> owners = petClinicService.findOwners();
-		MatcherAssert.assertThat(owners.size(), Matchers.equalTo(8));
+		petClinicService.findOwners();
 	}
 
 }

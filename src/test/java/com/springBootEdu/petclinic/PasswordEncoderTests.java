@@ -1,4 +1,4 @@
-package com.javaegitimleri.petclinic;
+package com.springBootEdu.petclinic;
 
 import org.junit.Test;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;

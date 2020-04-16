@@ -1,4 +1,4 @@
-package com.javaegitimleri.petclinic.web;
+package com.springBootEdu.petclinic.web;
 
 import java.net.URI;
 import java.util.Arrays;
