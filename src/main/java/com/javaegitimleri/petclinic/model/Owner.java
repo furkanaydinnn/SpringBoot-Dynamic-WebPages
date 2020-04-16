@@ -45,7 +45,7 @@ public class Owner {
 	}
 	@Override
 	public String toString() {
-		return "Owner [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + "]";
+		return "Owner [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + "]"+"_";
 	}
 	
 
